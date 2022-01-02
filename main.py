@@ -76,7 +76,7 @@ def question_2():
 def question_3():
     
     env = World()
-    num_episodes = int(1e6)
+    num_episodes = int(1e5)
     
     alpha = 0.001
     gamma = 0.9
@@ -159,7 +159,10 @@ def algoritms_analysis():
 
 if __name__ == "__main__":
     #algoritms_analysis()
+    #question_1()
+    #question_2()
     question_3()
+    #question_4()
     end = time.time()
     print(end - start)
 
